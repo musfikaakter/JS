@@ -1,0 +1,100 @@
+.container {
+    text-align: center;
+    /* background-color: rgb(252, 223, 254);
+    height: fit-content;*/
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+/* .container>* {
+    margin-bottom: 1rem;
+} */
+
+.random-number {
+    font-size: 3rem;
+    color: white;
+}
+
+.btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: hsl(214, 100%, 13%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 200ms;
+}
+
+.btn:hover {
+    background-color: rgb(171, 96, 242);
+}
+
+#countLabel {
+    font-size: 3em;
+}
+
+body > * {
+    margin-bottom: 1rem;
+}
+
+h2, h3 {
+    color: rgb(255, 225, 0);
+}
+
+input {
+    border: 2px solid red;
+    outline: none;
+    border-radius: 1.2rem;
+    font-size: 1.2em;
+    padding: 0.4rem 0.6rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+
+#displayImage {
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    border-radius: 1rem;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.playlist {
+    border-bottom: 3px solid rgb(255, 41, 102);
+}
+
+.box {
+    height: 10rem;
+    width: 10rem;
+    background-color: indigo;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.holder {
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    height: 7rem;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+}
+
+p, span, label {
+    font-size: 1.4em;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+
